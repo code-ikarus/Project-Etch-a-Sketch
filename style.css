@@ -1,0 +1,39 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  margin: 20px;
+  background-color: azure;
+  gap: 10px
+}
+
+button{
+  background-color: rgb(182, 252, 252);
+  padding: 20px;
+  border: solid 5px rgb(13, 121, 121);
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(13, 121, 121);
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+button:hover{
+background-color: rgb(46, 221, 221);
+}
+
+#container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 960px;
+  height: 960px;
+  border: 10px solid rgb(13, 121, 121);
+  border-radius: 15px;
+  background-color: white;
+}
+
+.square{
+  flex-grow: 1;
+}
